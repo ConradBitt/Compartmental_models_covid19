@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 
 class Doenca:
-    '''
+    """
     Esta classe cria uma doença, que será iterada por um tempo  (em dias)
     considerando o modelo epidemiológico SIR
     ================= MODELO SIR ==================
@@ -49,7 +49,7 @@ class Doenca:
     Criado por: Conrado Ferreira Bittencourt
     Gmail: conrad.bittencourt
     Data: 11/04/2020
-    '''
+    """
 
     def __init__(self, populacao, beta, gama, tDeath, infectado=1, curado=0,
                  mortos=0, simulationTime=21, leitos=0):
@@ -118,10 +118,6 @@ class Doenca:
         :return:
         """
 
-        self.mortalidade = mortalidade
-        self.contato = contato
-        self.probabilidade = probabilidade
-
         plt.title("Projeção infectados SARS-COV2 2020\n"
                   "Controle por Isolamento\n"
                   "Curitiba, considerando boletim SESA 19/03 : 17 confirmados")
@@ -144,22 +140,3 @@ class Doenca:
         fig = plt.gcf()
         plt.show()
         fig.savefig('Curitiba_isolamento.png', format='png')
-
-
-# Levando em conta os dados da COVID-19
-
-c = 3  # contato entre as pessoas
-p = 0.10  # probabilidade de contaminar
-beta = c * p
-tempo_de_contaminacao = 4  # o tempo de residência no compartimento infeccioso, isto é, o
-# tempo médio em que um indivíduo pode infectar outras pessoas.
-# Para a gripe, o período infecioso é tipicamente de 1 a 3 dias
-gama = 1 / tempo_de_contaminacao  # coeficiente de recuperação.
-
-mortalidade = 0.04
-
-corona = Doenca(populacao=900000, beta=beta, gama=gama,
-                tDeath=mortalidade, infectado=5100, simulationTime=360, leitos=5623)
-
-corona.run()
-corona.plot(mortalidade, c, p)
