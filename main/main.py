@@ -1,4 +1,4 @@
-from models import Doenca
+from epidemio_models import Doenca
 # Levando em conta os dados da COVID-19
 
 c = 3  # contato entre as pessoas
