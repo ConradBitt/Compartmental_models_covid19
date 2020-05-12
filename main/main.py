@@ -16,3 +16,5 @@ corona = Doenca(populacao=900000, beta=beta, gama=gama,
 
 corona.run()
 corona.plot(mortalidade, c, p)
+
+
