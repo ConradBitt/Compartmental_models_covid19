@@ -1,5 +1,5 @@
 # Compartmental model covid19
-Objetivo: Aplicar o modelo epidemiológico SIR utilizado em epidemias de gripe/ebola/zika para analisar o surto de SARS-Cov2 pelas cidades baseado no número de infectados
+Objetivo: Aplicar o modelo epidemiológico SIR utilizado em epidemias de gripe/ebola/zika para analisar o surto de SARS-Cov2 pelas cidades baseado no número de suscetíveis, infectados e recuperados.
 
 # Modelo SIR 
 Vamos modelar a dinâmica de uma doença (gripe, por exemplo), que se propaga numa certa população. Para isso, começamos por dividir a população em 3 grupos:
