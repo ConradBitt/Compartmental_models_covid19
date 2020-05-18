@@ -119,8 +119,7 @@ class Doenca:
         """
 
         plt.title("Projeção infectados SARS-COV2 2020\n"
-                  "Controle por Isolamento\n"
-                  "Curitiba, considerando boletim SESA 19/03 : 17 confirmados")
+                  "Controle por Isolamento\n")
 
         plt.xlabel('Dias \n\n'
                    ' Contato social médio: {} pessoas por dia \n'
