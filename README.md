@@ -13,9 +13,9 @@ Vamos modelar a dinâmica de uma doença (gripe, por exemplo), que se propaga nu
 # Equações do modelo
 O modelo SIR leva em conta um conjunto de três equações, que representam a taxa de variação dos grupos em função do tempo t: 
 
-        *dS = beta * [ [S(t) * I (t)] / N ] * dt;
-        *dI = { [{beta* S(t) * I(t)} / N] - gama * I(t) } * dt;
-        *dR = - gama * I(t) * dt:
+        dS = beta * [ [S(t) * I (t)] / N ] * dt;
+        dI = { [{beta* S(t) * I(t)} / N] - gama * I(t) } * dt;
+        dR = - gama * I(t) * dt:
 
 
 
