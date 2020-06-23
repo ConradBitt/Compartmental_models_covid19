@@ -33,12 +33,13 @@ Utilização depende de [matplotlib](https://matplotlib.org/).
 Ao executar o arquivo **main.py**, será perguntado no prompt:
 ```
 [In]
-    Probabilidade de contaminção: 0.1  # 10%
+    Contado médio entre os indivíduos: 10
+    Probabilidade de contaminção: 0.1
     Tempo em que um infectado pode infectar outros: 5
-    Mortalidade da doença: 0.07  # 0.7%
-    População: 500000  
-    Infectados: 147
-    Dias que serão simulados: 360
+    Mortalidade da doença: 0.07
+    População: 100000
+    Infectados: 150
+    Dias que serão simulados: 40
 [Out]
 ```
 <p align="left">
