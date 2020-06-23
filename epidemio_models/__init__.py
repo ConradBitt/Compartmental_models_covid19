@@ -132,10 +132,10 @@ class Doenca:
         plt.plot(self.time, self.I, label='Infected', color='orange')
         plt.plot(self.time, self.C, label='Mild symptoms', color='purple')
         # plt.plot(self.time, self.D, label='Precisando de Leitos', color='black')
-        plt.plot(self.time, self.leitos, label='beds (5.623)', color='red')
+        #plt.plot(self.time, self.leitos, label='beds (5.623)', color='red')
 
         plt.legend()
         plt.grid()
         fig = plt.gcf()
         plt.show()
-        fig.savefig('Curitiba_isolamento.png', format='png')
+        fig.savefig('figure_SIR_model.png', format='png')
