@@ -36,7 +36,7 @@ Ao executar o arquivo **main.py**, será perguntado no prompt:
 [Out]
 ```
 <p align="left">
-    <img src="figure_SIR_model" width=35%>
+    <img src="main/figure_SIR_model.png" width=60%>
 </p>
 
 **Contributing:** conrad.bittencourt@gmail.com
