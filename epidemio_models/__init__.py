@@ -118,8 +118,7 @@ class Doenca:
         :return:
         """
 
-        plt.title("Projeção infectados SARS-COV2 2020\n"
-                  "Controle por Isolamento\n")
+        plt.title("Projeção infectados SARS-COV2 2020")
 
         plt.xlabel('Dias \n\n'
                    ' Contato social médio: {} pessoas por dia \n'
@@ -128,9 +127,9 @@ class Doenca:
 
         plt.ylabel('Habitantes')
 
-        plt.plot(self.time, self.S, label='Susceptible', color='blue')
-        plt.plot(self.time, self.I, label='Infected', color='orange')
-        plt.plot(self.time, self.C, label='Mild symptoms', color='purple')
+        plt.plot(self.time, self.S, label='Suscetíveis', color='blue')
+        plt.plot(self.time, self.I, label='Infectados', color='orange')
+        plt.plot(self.time, self.C, label='Sintomas leves', color='purple')
         # plt.plot(self.time, self.D, label='Precisando de Leitos', color='black')
         #plt.plot(self.time, self.leitos, label='beds (5.623)', color='red')
 
