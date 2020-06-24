@@ -4,9 +4,9 @@ Objetivo: Aplicar o modelo epidemiológico SIR utilizado em epidemias de gripe/e
 # Modelo SIR 
 Vamos modelar a dinâmica de uma doença (gripe, por exemplo), que se propaga numa certa população. Para isso, começamos por dividir a população em 3 grupos:
 
-        * S = {Suscetíveis} - os que podem adquirir o vírus, mas que atualmente não estão infectados;
-        * I = {Infectados} - os que estão infectados com o vírus e podem transmiti-lo a outros;
-        * R = {Removidos/Recuperados} - os que não podem contrair o vírus, ou porque recuperaram permanentemente
+* S = {Suscetíveis} - os que podem adquirir o vírus, mas que atualmente não estão infectados;
+* I = {Infectados} - os que estão infectados com o vírus e podem transmiti-lo a outros;
+* R = {Removidos/Recuperados} - os que não podem contrair o vírus, ou porque recuperaram permanentemente
                                     e ficaram imunes (pelo menos durante o período em análise), ou porque
                                     são naturalmente imunes ou porque morreram!
 
