@@ -49,7 +49,7 @@ Ao executar o arquivo **main.py**, será perguntado no prompt:
     <img src="main/figure_SIR_model.png" width=60%>
 </p>
 
-**Contributing:** conrad.bittencourt@gmail.com
+**Contributing:** https://github.com/ConradBitt
 
 # Referências:
 [1] https://doi.org/10.1137/S0036144500371907
